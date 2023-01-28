@@ -1,0 +1,8 @@
+# vscode configuration files
+.vscode/
+
+# node module
+node_modules/
+
+# data file
+*.csv
