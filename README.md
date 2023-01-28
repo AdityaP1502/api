@@ -116,6 +116,7 @@ if (data.a === "F" ){
   }
 ```
 
+### Notes: File modifikasi dapat dilihat pada folder modifikasi_file_ndnts
 
 
 # Installation
