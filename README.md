@@ -1,3 +1,4 @@
+# NDN API 
 API ini ditulis pada node.js dengan framework Hapi. Server API akan berjalan pada localhost:5000. API ini berfungsi untuk menerima data yang dikirimkan dari suatu client dan akan disimpan pada text csv. 
 
 Sebelum memulai, buat file bernama data.csv pada folder src. CSV tersebut harus memiliki header seperti berikut
@@ -118,3 +119,20 @@ if (data.a === "F" ){
 
 
 # Installation
+Clone repo ini
+```shell
+git clone https://github.com/AdityaP1502/api.git
+```
+
+Kemudian install modules yang digunakan 
+```shell
+npm install
+```
+
+Setelah itu jalankan server
+```
+npm run start
+```
+
+Untuk bagian client
+copy playback.jsx dan connect.js yang sudah dimodifikasi ke NDNts-video/src
